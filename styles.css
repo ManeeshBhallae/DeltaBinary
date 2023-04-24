@@ -14,7 +14,6 @@
 /* Add styles for the header and logo */
 header {
   background-color: rgba(255, 255, 255, 0);
-  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,7 +33,7 @@ header {
 
 .logoIcon {
  margin-top: 5%;
-  height: 50px;
+ height: 50px;
 }
 
 
@@ -79,7 +78,7 @@ header {
 
 /* Add styles for the main content section */
 main {
-  padding-top: 150px;
+  padding-top: 10px;
 }
 
 /* Add styles for the Cards */
@@ -120,4 +119,21 @@ main {
   border-color: #ffffff;
   color: rgb(0, 0, 0);
   box-shadow: 0 0 10px rgb(255, 255, 255); /* Add a box shadow on hover */
+}
+
+#quote {
+  background-color:  rgba(255, 255, 255, 0); /* Set background color */
+  padding: 20px; /* Add padding to the container */
+}
+
+#quote h3 {
+  font-size: 25px; /* Set font size for the quote text */
+  font-styl:oblique; /* Make the text italic */
+  color: #ffffff; /* Set text color */
+  text-align: center; /* Center align the text */
+  margin-bottom: 0; /* Remove default bottom margin */
+}
+
+#quote p {
+  text-align: center; /* Center align any additional text below the quote (if any) */
 }
