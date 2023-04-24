@@ -1,0 +1,123 @@
+/* Add styles for the background video */
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 0);
+}
+/* Add styles for the header and logo */
+header {
+  background-color: rgba(255, 255, 255, 0);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent; /* Set the background color to transparent */
+}
+
+.logoIcon {
+ margin-top: 5%;
+  height: 50px;
+}
+
+
+
+.logoText {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px; /* Add margin-top to create some spacing between the image and text */
+  color: #fff; /* Set the font color to white */
+}
+
+/* Add styles for the Google Playstore Card */
+.playstore-card {
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.playstore-card h2 {
+  color: #000000;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#my-container {
+  border: 10px solid  rgba(255, 255, 255, 0.637);;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  transition: box-shadow 0.3s ease-in-out;
+  padding-bottom: 1%; /* Optional: Add some padding to create space inside the border */
+}
+
+#my-container:hover {
+  border: 10px solid  rgb(255, 255, 255);;
+  box-shadow: 0 0 5px rgb(255, 255, 255); /* Add a box shadow on hover */
+}
+
+.playstore-card a {
+  margin-top: 20px;
+}
+
+/* Add styles for the main content section */
+main {
+  padding-top: 150px;
+}
+
+/* Add styles for the Cards */
+.card {
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.521);
+  transition: box-shadow 0.3s ease-in-out; /* Add a transition for a smooth animation */
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.726);
+  box-shadow: 0 0 10px rgb(255, 255, 255); /* Add a box shadow on hover */
+  transform: translateY(-1px); /* Move the card up by 5 pixels */
+}
+
+.card-title {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.btn-primary {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-color: #ffffff;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgb(255, 255, 255); /* Add a box shadow on hover */
+}
